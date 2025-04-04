@@ -12,7 +12,7 @@ import json
 from pathlib import Path
 
 # Configure Gemini API
-GEMINI_API_KEY = "AIzaSyDfXA0kfutmf6T4ftsxOQPg0sLIXcTBA3E"
+GEMINI_API_KEY = "AIzaSyBimzoRyCtou6GecC7Tmz8gVGwAs0wq4lU"
 genai.configure(api_key=GEMINI_API_KEY)
 
 if "messages" not in st.session_state:
